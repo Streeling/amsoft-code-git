@@ -1,8 +1,8 @@
 MENU = [
          "Exit",
-	     "Option 1",
-         "Option 2"
-         "Option 9"  		 
+	      "Option 1",
+        "Option 2",
+        "Option 9", 		 
        ]
 	   
 N = 3
