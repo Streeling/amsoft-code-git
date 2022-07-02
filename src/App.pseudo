@@ -3,8 +3,9 @@ MENU = [
 	     "Option 1",
          "Option 2", 
          "Option 3",
-         "Option 4"		 
-         "Option 9", 		 
+         "Option 4"	
+         "Option 5 "	 
+         "Option 9",
        ]
 	   
 N = 4
@@ -23,6 +24,8 @@ else if INPUT = "3" then
   output "AMSoft Group!"
 else if INPUT = "4" then
   output "My name is Aliona"
+else if Option ="5" then
+    output "ati ales varianta 5!"
 else if INPUT = "9" then
   output "Hello"  
 end if
