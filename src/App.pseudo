@@ -1,0 +1,19 @@
+MENU = [
+         "Exit",
+	     "Option 1",
+         "Option 2"  		 
+       ]
+	   
+N = 3
+	   
+loop I from 0 to N - 1
+  output I, " -- ", MENU[I] 
+end loop	   
+
+INPUT = input("Enter your choice:")
+
+if INPUT = "1" then
+  output "The weather is good today." 
+else if INPUT = "2" then
+  output "Numele meu este Radu și eu sunt mentorul acestui atelier"
+end if
