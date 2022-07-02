@@ -1,11 +1,11 @@
 MENU = [
          "Exit",
+<<<<<<< HEAD
 
 	     "Option 1",
          "Option 2",
          "Option 5 " 		 
         "Option 9", 		 
-
        ]
 	   
 N = 3
@@ -20,6 +20,8 @@ if INPUT = "1" then
   output "The weather is good today." 
 else if INPUT = "2" then
   output "Numele meu este Radu și eu sunt mentorul acestui atelier"
+else if INPUT = "3" then
+  output "AMSoft Group!"
 else if Option ="5" then
     output "ati ales varianta 5!"
 else if INPUT = "9" then
