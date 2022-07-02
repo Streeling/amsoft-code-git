@@ -1,7 +1,8 @@
 MENU = [
          "Exit",
 	     "Option 1",
-         "Option 2"  		 
+         "Option 2"
+         "Option 9"  		 
        ]
 	   
 N = 3
@@ -16,4 +17,6 @@ if INPUT = "1" then
   output "The weather is good today." 
 else if INPUT = "2" then
   output "Numele meu este Radu și eu sunt mentorul acestui atelier"
+else if INPUT = "9" then
+  output "Hello"  
 end if
