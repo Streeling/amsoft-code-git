@@ -1,8 +1,10 @@
 MENU = [
          "Exit",
 	     "Option 1",
-         "Option 2"  , 
+         "Option 2", 
+         "Option 3",
          "Option 4"		 
+         "Option 9", 		 
        ]
 	   
 N = 4
@@ -13,8 +15,15 @@ end loop
 
 INPUT = input("Enter your choice:")
 
-if INPUT = "4" then
+if INPUT = "1" then
   output "It is sunny today" 
 else if INPUT = "2" then
+  output "Numele meu este Radu și eu sunt mentorul acestui atelier"
+else if INPUT = "3" then
+  output "AMSoft Group!"
+else if INPUT = "4" then
   output "My name is Aliona"
+else if INPUT = "9" then
+  output "Hello"  
 end if
+123
