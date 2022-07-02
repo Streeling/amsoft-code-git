@@ -17,3 +17,4 @@ if INPUT = "1" then
 else if INPUT = "2" then
   output "Numele meu este Radu și eu sunt mentorul acestui atelier"
 end if
+123
